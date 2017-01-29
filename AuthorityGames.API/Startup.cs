@@ -13,6 +13,7 @@ namespace AuthorityGames.API
 				EnableClientCertificates = true,
 				Bootstrapper = new UnityBootstrapper(Container.GetConfiguredContainer())
 			});
+
 		}
     }
 }
